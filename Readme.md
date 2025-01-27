@@ -8,3 +8,11 @@ Also it allows not only create API tests but UI as well, so in the end we can ha
 ## Approach
 I created only one file which contains all the tests for CRUD for Pet store API domain. I decided to put everything in one file to show how easy can automated testing statred with this tool.
 Before each test I create new randomised instance of the pet in API and work with it in scenario itself.
+
+## How to run tests
+1. Up pet store application, follow instructions in readme of this project https://github.com/swagger-api/swagger-petstore
+2. Install node.js https://nodejs.org/en
+3. Navigate to this project directory and perform `npm install`
+4. Then activate Playwright with `npm init playwright`                            
+5. Run `npx playwright test`
+6. Report will be automativally open in your default browser
