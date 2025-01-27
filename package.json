@@ -1,0 +1,20 @@
+{
+  "name": "n26",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.10.10",
+    "prettier": "^3.3.1",
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "playwright": "^1.50.0"
+  }
+}
